@@ -1,0 +1,88 @@
+.container{
+  padding: 0 90px;
+  margin: 0 auto;
+}
+.parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form{
+  width: 100%;
+  box-shadow: 0px 2px 15px rgb(0 0 0/10%);
+  padding: 20px;
+  border-radius: 8px;
+}
+.register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  position:relative;
+}
+.register button ,.register-nav{
+  outline: none;
+  border: none;
+  background-color: #86b7fe;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0,3s;
+border: 2px solid white;
+font-weight: bold;
+
+}
+.btn{
+  outline: none;
+  border: none;
+  background-color: #86b7fe;
+
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0,3s;
+border: 2px solid white;
+font-weight: bold;
+text-decoration: none;
+position: absolute;
+bottom: 0;
+
+}
+
+.register button:hover .register-nav:hover ,.btn{
+  background-color: white;
+  color: #86b7fe;
+  border: 2px solid #86b7fe;
+}
+input{
+  margin-bottom: 8px;
+  transition: 0,3s;
+  padding: 10px 20px;
+  width: 90%;
+  border: 2px solid;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px rgb(0,0,0,1) ;
+outline: none;
+}
+input:focus{
+  border: 2px solid #86b7fe;
+}
+input::placeholder{
+  color:  rgb(0,0,0,3);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
